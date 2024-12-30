@@ -12,7 +12,7 @@ let userCounter = 0;
 
 const io = require('socket.io')(3001, {
     cors: {
-        origin: 'http://localhost:5173',
+        origin: 'https://neodocs.netlify.app',
         methods: ['GET', 'POST'],
     },
 });
